@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>NIST Escalation Email2</name>
+    <style>freeForm</style>
+    <subject>Inquiry Escalation Email</subject>
+    <textOnly>Dear {!Case.OwnerFirstName}
+
+Inquiry {!Case.CaseNumber} is being escalated for your review.
+
+This inquiry was received on {!Case.CreatedDate} and has not been addressed or routed to the appropriate individuals.
+
+Please address this outstanding inquiry with the appropriate individuals.
+
+The details of the inquiry can be found here:
+
+URL
+{!Case.Link}
+
+Inquiry Subject
+{!Case.Subject}
+
+Inquiry Details
+{!Case.Description}
+
+Thank you
+{!Case.Responding_Office__c} Inquiry Management Team</textOnly>
+    <type>html</type>
+</EmailTemplate>

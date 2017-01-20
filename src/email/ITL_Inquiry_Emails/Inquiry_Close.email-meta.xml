@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>Inquiry Close</name>
+    <style>freeForm</style>
+    <subject>Response to your inquiry #{!Case.CaseNumber}</subject>
+    <textOnly>Dear {!Case.Contact},
+
+Thank you for your submission of an inquiry to our team.  Your inquiry:
+
+Inquiry Subject
+
+{!Case.Subject}
+
+Inquiry Details
+
+{!Case.Description}
+
+Has been addressed by our team.  Our response to your inquiry is:
+
+{!Case.NIST_Response__c}
+
+If you have additional questions, please feel free to contact us at {!Case.NIST_Office_Phone__c} or via email at {!Case.NIST_Office_Email__c} and we would be happy to assist you further.   Please don’t reply to this email this inbox is not monitored.
+
+Thank you again for your interest in NIST.
+NIST Inquiry Management Team</textOnly>
+    <type>html</type>
+</EmailTemplate>

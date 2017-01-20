@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>NIST_PI__c</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Agreement_Stage_update</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>NIST_PI_Approval_Memo__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>PI approval</label>
+        <name>PI_approval</name>
+    </approvalStep>
+    <emailTemplate>CRADA_Email_Templates/Project_Memo_Approval</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Agreement__c.Agreement_Stage__c</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Agreement__c.Agreement_Status__c</field>
+            <operation>equals</operation>
+            <value>Agreement In Process</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Agreement__c.Agreement_Type__c</field>
+            <operation>equals</operation>
+            <value>CRADA</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Agreement  PI Approval_Old</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>Project Approved IAAO</name>
+    <style>freeForm</style>
+    <subject>Project Approved</subject>
+    <textOnly>Hello,
+
+This is a request for approval from the International and Academic Affairs Office (IAAO) for a Foreign NIST Associate to work on a CRADA. NIST and  {!Agreement__c.Agreement_Partner__c} intend to work on a project entitled {!Agreement__c.Agreement_Title__c}. Attached is the CRADA Approval Memo that has been approved by the relevant OU. If IAAO approves, this CRADA project will include a Foreign Guest Researcher, [Insert Foreign Guest Researcher Name].  {!Agreement__c.Agreement_Partner__c} is agreeable to including the NIST Associate on the project.
+
+If approved, please respond to this email indicating your approval. Please let me know if I can offer additional information.
+
+Thank you.</textOnly>
+    <type>html</type>
+</EmailTemplate>

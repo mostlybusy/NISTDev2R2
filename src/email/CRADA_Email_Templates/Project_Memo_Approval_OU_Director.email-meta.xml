@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>Project Memo Approval OU Director</name>
+    <style>freeForm</style>
+    <subject>Project Memo Approval OU Director</subject>
+    <textOnly>Hello,
+
+Please find attached the CRADA Approval Memo regarding the proposed project with {!Agreement__c.Agreement_Partner__c}, titled {!Agreement__c.Agreement_Title__c}. According to NIST Policy, each CRADA project requires approval from the relevant Division Chief and the Director of the Operating Unit. The Division Chief has approved this CRADA project.
+
+If you approve the project, please click here and &quot;approve&quot; the agreement, alternatively, you can reply to this email with the word approve and your approval will be documented. If you have any proposed changes, please feel free to contact {!Agreement__c.Agreement_Officer__c}.
+
+Thank you.</textOnly>
+    <type>html</type>
+</EmailTemplate>

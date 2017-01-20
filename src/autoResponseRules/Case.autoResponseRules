@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>General Auto Response Rule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Salesforce@nist.gov</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>nageshpawar@cvpcorp.com</senderEmail>
+            <senderName>NIST O&amp;M Inquiry</senderName>
+            <template>ITL_Inquiry_Emails/O_M_Auto_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Web</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>nageshpawar@cvpcorp.com</senderEmail>
+            <senderName>NIST Inquiry Management</senderName>
+            <template>ITL_Inquiry_Emails/Inquiry_Auto_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Case_Type__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>nageshpawar@cvpcorp.com</senderEmail>
+            <senderName>NIST Inquiry Management</senderName>
+            <template>ITL_Inquiry_Emails/ITL_Auto_Response</template>
+        </ruleEntry>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>NIST Auto-response Case Rule</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <booleanFilter>1</booleanFilter>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <replyToEmail>noreply@nist.gov</replyToEmail>
+            <senderEmail>gangaatturu@cvpcorp.com</senderEmail>
+            <senderName>NIST Inquiry Management</senderName>
+            <template>ITL_Inquiry_Emails/Inquiry_Auto_Response</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

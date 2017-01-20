@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>NIST_PI__c</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Email_sent_to_OU_Dir</name>
+                <type>Alert</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>NIST_Division_Chief_Approval_Memo__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Division Chief Approval</label>
+        <name>Division_Chief_Approval</name>
+    </approvalStep>
+    <emailTemplate>CRADA_Email_Templates/Project_Memo_Approval_Division_Chief</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Agreement__c.Agreement_Stage__c</field>
+            <operation>equals</operation>
+            <value>PI Approved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Agreement__c.Agreement_Status__c</field>
+            <operation>equals</operation>
+            <value>Agreement In Process</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>NIST Division Chief Approval</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

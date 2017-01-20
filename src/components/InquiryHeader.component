@@ -1,0 +1,6 @@
+<apex:component id="headerComponent">
+  <apex:panelGrid cellpadding="25" cellspacing="0" width="98%" border="0" columns="0" style="text-align: left;" id="theHeader">
+    <apex:image url="https://www.nist.gov/sites/all/themes/nist_style/images/build/logo-2x.png" style="align: left;" alt="NIST" width="289" height="38" title="NIST"/>
+    
+  </apex:panelGrid>
+</apex:component>

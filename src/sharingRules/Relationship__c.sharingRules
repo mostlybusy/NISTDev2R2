@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>AMNPO_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>AMNPO Users</label>
+        <sharedTo>
+            <group>AMNPO_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Institute Account Partner,Institute Contact Partner</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Archive_Record__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>All_Users</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>All Users</label>
+        <sharedTo>
+            <group>All_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Topics of Interest,Presentation Requests,Event Participant,Contact Group Members,Account Group Members</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Archive_Record__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>ADIIS_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ADIIS Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Associate_Director_for_Innovation_Industry_Services</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Associate_Director_for_Innovation_Industry_Services</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ADLP_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ADLP Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Associate_Director_for_Laboratory_Programs_ADLP</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Associate_Director_for_Laboratory_Programs_ADLP</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>All_Users_Read</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>All Users Read</label>
+        <sharedTo>
+            <group>All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>All_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Baldrige_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Baldrige Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Baldrige_Performance_Excellence_Program_Baldrige</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Baldrige_Performance_Excellence_Program_Baldrige</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CNST_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CNST Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Center_for_Nanoscale_Science_and_Technology_CNST</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Center_for_Nanoscale_Science_and_Technology_CNST</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CTL_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CTL Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Communications_Technology_Laboratory_CTL</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Communications_Technology_Laboratory_CTL</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>DO_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>DO Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Directors_Office</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Directors_Office</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EL_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EL Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Engineering_Laboratory_EL</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Engineering_Laboratory_EL</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ITL_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ITL Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Information_Technology_Laboratory_ITL</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Information_Technology_Laboratory_ITL</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>MEP_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>MEP Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Hollings_Manufacturing_Extension_Partnership_Program_MEP</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Hollings_Manufacturing_Extension_Partnership_Program_MEP</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>MML_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>MML Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Material_Measurement_Laboratory_MML</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Material_Measurement_Laboratory_MML</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NCNR_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NCNR Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>NIST_Center_for_Neutron_Research_NCNR</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>NIST_Center_for_Neutron_Research_NCNR</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PML_Relationship_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PML Relationship Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Physical_Measurement_Laboratory_PML</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Physical_Measurement_Laboratory_PML</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

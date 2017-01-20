@@ -1,0 +1,53 @@
+[
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adr00000004PIxCAM"
+        },
+        "Id": "0Adr00000004PIxCAM",
+        "AuraDefinitionBundleId": "0Abr00000004G9WCAU",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abr00000004G9WCAU"
+            },
+            "DeveloperName": "AgreementTracker"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adr00000004PJ2CAM"
+        },
+        "Id": "0Adr00000004PJ2CAM",
+        "AuraDefinitionBundleId": "0Abr00000004G9WCAU",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abr00000004G9WCAU"
+            },
+            "DeveloperName": "AgreementTracker"
+        },
+        "DefType": "RENDERER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adr00000004PJ7CAM"
+        },
+        "Id": "0Adr00000004PJ7CAM",
+        "AuraDefinitionBundleId": "0Abr00000004G9WCAU",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abr00000004G9WCAU"
+            },
+            "DeveloperName": "AgreementTracker"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    }
+]

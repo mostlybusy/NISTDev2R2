@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>NIST Approval Required</name>
+    <style>none</style>
+    <subject>The following User Story has been submitted for approval: {!UserStory__c.Name}</subject>
+    <type>text</type>
+</EmailTemplate>

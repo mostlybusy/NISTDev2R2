@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Contact_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Contact Sharing Rule</label>
+        <sharedTo>
+            <group>All_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Active_Contact__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Private_Contact__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>ADIIS_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ADIIS Contact Sharing</label>
+        <sharedTo>
+            <role>Associate_Director_for_Innovation_Industry_Services</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Associate_Director_for_Innovation_Industry_Services</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ADLP_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ADLP Contact Sharing</label>
+        <sharedTo>
+            <role>Associate_Director_for_Laboratory_Programs_ADLP</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Associate_Director_for_Laboratory_Programs_ADLP</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AMNPO_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>AMNPO Contact Sharing</label>
+        <sharedTo>
+            <role>Advanced_Manufacturing_Office_AMNPO</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Advanced_Manufacturing_Office_AMNPO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Baldrige_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Baldrige Contact Sharing</label>
+        <sharedTo>
+            <role>Baldrige_Performance_Excellence_Program_Baldrige</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Baldrige_Performance_Excellence_Program_Baldrige</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CNST_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CNST Contact Sharing</label>
+        <sharedTo>
+            <role>Center_for_Nanoscale_Science_and_Technology_CNST</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Center_for_Nanoscale_Science_and_Technology_CNST</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CSD_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CSD Contact Sharing</label>
+        <sharedTo>
+            <role>Computer_Security_Division_CSD</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Computer_Security_Division_CSD</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CTL_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CTL Contact Sharing</label>
+        <sharedTo>
+            <role>Communications_Technology_Laboratory_CTL</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Communications_Technology_Laboratory_CTL</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>DO_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>DO Contact Sharing</label>
+        <sharedTo>
+            <role>Directors_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Directors_Office</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EL_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EL Contact Sharing</label>
+        <sharedTo>
+            <role>Engineering_Laboratory_EL</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Engineering_Laboratory_EL</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ITL_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ITL Contact Sharing</label>
+        <sharedTo>
+            <role>Information_Technology_Laboratory_ITL</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Information_Technology_Laboratory_ITL</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>MEP_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>MEP Contact Sharing</label>
+        <sharedTo>
+            <role>Hollings_Manufacturing_Extension_Partnership_Program_MEP</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Hollings_Manufacturing_Extension_Partnership_Program_MEP</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>MML_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>MML Contact Sharing</label>
+        <sharedTo>
+            <role>Material_Measurement_Laboratory_MML</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Material_Measurement_Laboratory_MML</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NCCOE_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NCCOE Contact Sharing</label>
+        <sharedTo>
+            <role>National_Cybersecurity_Center_of_Excellence_NCCOE</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>National_Cybersecurity_Center_of_Excellence_NCCOE</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NCNR_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NCNR Contact Sharing</label>
+        <sharedTo>
+            <role>NIST_Center_for_Neutron_Research_NCNR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>NIST_Center_for_Neutron_Research_NCNR</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NICE_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NICE Contact Sharing</label>
+        <sharedTo>
+            <role>National_Initiative_for_Cyber_Security_Education_NICE</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>National_Initiative_for_Cyber_Security_Education_NICE</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NSTIC_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NSTIC Contact Sharing</label>
+        <sharedTo>
+            <role>Trusted_Identity_Initiative_Group_NSTIC</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Trusted_Identity_Initiative_Group_NSTIC</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PML_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PML Contact Sharing</label>
+        <sharedTo>
+            <role>Physical_Measurement_Laboratory_PML</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Physical_Measurement_Laboratory_PML</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TPO_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>TPO Contact Sharing</label>
+        <sharedTo>
+            <role>Technology_Partnership_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Technology_Partnership_Office</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

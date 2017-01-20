@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>Special Case Approval IAAO</name>
+    <style>freeForm</style>
+    <subject>Special Case Approval IAAO</subject>
+    <textOnly>Hello,
+
+
+
+This is a request for approval from the International and Academic Affairs Office to work with {!Agreement__c.Agreement_Partner__c} on a CRADA project titled {!Agreement__c.Agreement_Title__c}. Please respond to this email with an approval or any objections that IAAO may have regarding this Collaborator. If you have any questions, please feel free to contact {!Agreement__c.Agreement_Officer__c}.
+
+
+
+Thank you.</textOnly>
+    <type>html</type>
+</EmailTemplate>

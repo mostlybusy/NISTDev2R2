@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>UserStory__c.LoE_Number__c:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Total Points</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>UserStory__c.User_Story_Name__c</field>
+    </columns>
+    <columns>
+        <field>UserStory__c.User_Story__c</field>
+    </columns>
+    <columns>
+        <field>UserStory__c.NIST_Approval__c</field>
+    </columns>
+    <columns>
+        <field>UserStory__c.Story_Points__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>(((1 Or 2 or 4 or 5) AND 3)) AND 6</booleanFilter>
+        <criteriaItems>
+            <column>FK_NAME</column>
+            <operator>equals</operator>
+            <value>Sprint 7</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_NAME</column>
+            <operator>equals</operator>
+            <value>Backlog</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>UserStory__c.Status__c</column>
+            <operator>notEqual</operator>
+            <value>Archived</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_NAME</column>
+            <operator>equals</operator>
+            <value>Sprint 8</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_NAME</column>
+            <operator>equals</operator>
+            <value>Sprint 9</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>UserStory__c.Story_Points__c</column>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>UserStory__c.Epic_Name__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Stories to Point</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$UserStory__c@UserStory__c.Sprint__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2016-10-01</startDate>
+    </timeFrameFilter>
+</Report>

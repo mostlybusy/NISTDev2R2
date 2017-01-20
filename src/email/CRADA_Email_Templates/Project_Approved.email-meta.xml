@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>Project Approved</name>
+    <style>freeForm</style>
+    <subject>Project Approved</subject>
+    <textOnly>Hello,
+
+This project {!Agreement__c.Agreement_Title__c} has been approved by {!Agreement__c.NIST_OU_Director__c}.
+
+Thank you.</textOnly>
+    <type>html</type>
+</EmailTemplate>

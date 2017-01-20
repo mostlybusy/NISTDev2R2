@@ -1,0 +1,3 @@
+Email Address: {!Case.SuppliedEmail} 
+
+Message: {!Case.Description}

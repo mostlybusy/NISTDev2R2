@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>Special Case Approval USTR</name>
+    <style>freeForm</style>
+    <subject>Special Case Approval USTR</subject>
+    <textOnly>Hello,
+
+
+
+In accordance with E.O. 12591, 52 Fed. Reg. 13414 (1987), this is a request for concurrence from the United States Trade Representative for the National Institute of Standards and Technology (NIST) to engage in a CRADA for the project described below. If you require any additional
+
+information, please contact tpo@nist.gov.
+
+
+
+Name, title and agency of individual requesting the CRADA: Paul R. Zielinski, Director of Technology Partnerships Office, NIST/Department of Commerce.
+
+
+
+Type of Agreement (CRADA, MTA, CRADA-MT[R], NDA, etc.) or patent license agreement (PLA):{!Agreement__c.Agreement_Type__c}
+
+
+
+Name and Type of CRADA Partner (i.e., corporation, institution, university, etc.):{!Agreement__c.Agreement_Partner__c}, {!Agreement__c.Account_Country__c}, [Collaborator Type].
+
+
+
+Short description of the purpose of the {!Agreement__c.Agreement_Type__c}: {!Agreement__c.Agreement_Title__c}.
+
+
+
+Thank you for your attention to this request. If you require any additional information, please contact tpo@nist.gov.</textOnly>
+    <type>html</type>
+</EmailTemplate>

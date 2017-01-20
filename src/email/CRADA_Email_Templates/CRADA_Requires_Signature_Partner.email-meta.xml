@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>CRADA Requires Signature Partner</name>
+    <style>freeForm</style>
+    <subject>CRADA Requires Signature Partner</subject>
+    <textOnly>Hello,
+
+
+
+Please find attached the latest revision of the proposed CRADA for the project entitled {!Agreement__c.Agreement_Title__c}, {!Agreement__c.Name}. This draft is being presented for signature by an authorized official on behalf of {!Agreement__c.Agreement_Partner__c}.  Please also complete the certifications in Appendix A. Please sign and return a copy by email. Should you have any questions or additional changes, please contact {!Agreement__c.Agreement_Officer__c}.
+
+
+
+Thank you.</textOnly>
+    <type>html</type>
+</EmailTemplate>

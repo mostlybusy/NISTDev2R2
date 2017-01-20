@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>Email to Paul Zielinski Classified Selected</name>
+    <style>formalLetter</style>
+    <subject>Restricted information : Classified is selected</subject>
+    <textOnly>Hello,
+
+Agreement number {!Agreement__c.Name} has been marked containing classified information. NIST CRM isn&apos;t approved for the management of classified information. Please work with {!Agreement__c.Agreement_Officer__c} to ensure appropriate measures are taken for the management of classified material.
+
+A link to the agreement record can be found here click here.
+
+Thank You.</textOnly>
+    <type>html</type>
+</EmailTemplate>

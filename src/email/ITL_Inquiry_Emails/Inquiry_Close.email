@@ -1,0 +1,22 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN">Dear {!Case.Contact},<o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN"><br></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN">Thank you for your submission of an inquiry to our
+team.&nbsp; Your inquiry:<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN"><b>Inquiry Subject</b></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN">{!Case.Subject}<o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b>Inquiry Details</b></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial">{!Case.Description}</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b>Response</b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p><p class="MsoNormal"><font face="arial">{!Case.NIST_Response__c}</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN">If you have additional questions, please feel
+free to contact us at {!Case.NIST_Office_Phone__c} or via email at </span><a href="mailto:XXX@nist.gov"><span lang="EN">{!Case.NIST_Office_Email__c}</span></a><span lang="EN"> and we would be happy to assist you
+further.&nbsp; &nbsp;Please don’t reply to this email this inbox is
+not monitored.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN">Thank you again for your interest in NIST.<o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN">NIST Inquiry Management Team</span></p></div>]]></td>
+</tr>
+</table>

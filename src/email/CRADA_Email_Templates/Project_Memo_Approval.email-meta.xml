@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>Project Memo Approval</name>
+    <style>freeForm</style>
+    <subject>Project Memo Approval</subject>
+    <textOnly>Hello,
+
+
+
+Please find attached the information regarding your proposed project with {!Agreement__c.Agreement_Partner__c}. If the information is correct, please open the attachment, sign next to your name at the top, and reply to this email with a copy of the Memo.  If you have any proposed changes, please feel free to contact {!Agreement__c.Agreement_Officer__c}.
+
+
+
+Thank you.</textOnly>
+    <type>html</type>
+</EmailTemplate>

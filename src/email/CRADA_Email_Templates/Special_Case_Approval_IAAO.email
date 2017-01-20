@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><font color="#333333"><span style="background-color: rgb(255, 255, 255);">Hello,</span></font></p><p class="MsoNormal"><font color="#333333"><span style="background-color: rgb(255, 255, 255);"><br></span></font></p><p class="MsoNormal"><font color="#333333"><span style="background-color: rgb(255, 255, 255);">This is a request for approval from the International and Academic Affairs Office to work with</span>&nbsp;{!Agreement__c.Agreement_Partner__c}&nbsp;<span style="background-color: rgb(255, 255, 255);">on a CRADA project titled&nbsp;</span>{!Agreement__c.Agreement_Title__c}<span style="background-color: rgb(255, 255, 255);">. Please respond to this email with an approval or any objections that IAAO may have regarding this Collaborator. If you have any questions, please feel free to contact </span><font>{!Agreement__c.Agreement_Officer__c}.</font></font></p><p class="MsoNormal"><font color="#333333"><font><br></font></font></p><p class="MsoNormal"><font color="#333333"><font>Thank you.</font></font></p>]]></td>
+</tr>
+</table>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>UserStory__c.User_Story_Name__c</field>
+    </columns>
+    <columns>
+        <field>UserStory__c.User_Story__c</field>
+    </columns>
+    <columns>
+        <field>UserStory__c.Acceptance_Criteria__c</field>
+    </columns>
+    <columns>
+        <field>UserStory__c.Story_Points__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>UserStory__c.Sprint__c</column>
+            <operator>equals</operator>
+            <value>Sprint 2</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>UserStory__c.Sprint__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>User Story Sprint 2 Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$UserStory__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>UserStory__c.Requester_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

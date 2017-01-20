@@ -1,0 +1,8 @@
+<apex:component >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Component
+    <apex:image url="/servlet/servlet.FileDownload?file=015r0000000DOpt" width="500" height="50"/>
+  
+  <!-- End Default Content REMOVE THIS -->
+</apex:component>

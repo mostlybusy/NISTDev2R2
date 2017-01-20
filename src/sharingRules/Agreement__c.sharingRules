@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Crada_Record</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Crada Record</label>
+        <sharedTo>
+            <role>Technology_Partnership_Office</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>New Agreement</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

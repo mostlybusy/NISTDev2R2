@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="1" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial">Hello,</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style="font-family: arial; font-size: 12pt;"><font face="arial"><span style="color: rgb(0, 0, 0); font-size: 12pt;">Agreement number </span><font color="#333333">{!Agreement__c.Name}</font>&nbsp;<span style="color: rgb(0, 0, 0); font-size: 12pt;">has been marked containing classified information. NIST CRM isn't approved for the management of classified information. Please work with </span><font color="#333333">{!Agreement__c.Agreement_Officer__c}&nbsp;</font><span style="color: rgb(0, 0, 0); font-size: 12pt;">to ensure appropriate measures are taken for the management of classified material.</span></font></div><div style="font-family: arial; font-size: 12pt;"><font face="arial"><span style="color: rgb(0, 0, 0); font-size: 12pt;"><br></span></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial">A link to the agreement record can be found here&nbsp;</font><a href="{!Agreement__c.Link}" style="font-size: 12pt;">click here</a>.</div><div style="color: rgb(0, 0, 0);"><span style="font-size: 12pt;"><br></span></div><div style="color: rgb(0, 0, 0);"><span style="font-size: 12pt;">Thank You.</span></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

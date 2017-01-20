@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object will be used to record snapshots of changes on other records when needed.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>ASI_Approved_Date__c</fullName>
+        <description>ASI Approved Date</description>
+        <externalId>false</externalId>
+        <label>ASI Approved Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ASI_Memo_Received_Date__c</fullName>
+        <description>ASI Memo Received Date</description>
+        <externalId>false</externalId>
+        <label>ASI Memo Received Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ASI_Notification_Sent_Date__c</fullName>
+        <description>ASI Notification Sent Date</description>
+        <externalId>false</externalId>
+        <label>ASI Notification Sent Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_New_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement New Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_OCC_Approval_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement OCC Approval Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_OCC_Signed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement OCC Signed Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_OU_Approved_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement OU Approved Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_OU_Signed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement OU Signed Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_PI_Approved_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement PI Approved Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_Partner_Signed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement Partner Signed Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_Routed_OCC_Approval_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement Routed OCC Approval Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_Status_Active_Date__c</fullName>
+        <description>Agreement Status Active Date</description>
+        <externalId>false</externalId>
+        <label>Agreement Status Active Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_Status_Canceled_Date__c</fullName>
+        <description>Agreement Status Canceled Date</description>
+        <externalId>false</externalId>
+        <label>Agreement Status Canceled Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_Status_Expired_Date__c</fullName>
+        <description>Agreement Status Expired Date</description>
+        <externalId>false</externalId>
+        <label>Agreement Status Expired Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_Status_In_Process_Date__c</fullName>
+        <description>Agreement Status Agreement In Process Date</description>
+        <externalId>false</externalId>
+        <label>Agreement Status In Process Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_Status_Pending_Amendment_Date__c</fullName>
+        <description>Agreement Status Pending Amendment Date</description>
+        <externalId>false</externalId>
+        <label>Agreement Status Pending Amendment Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_Status_Terminated_Date__c</fullName>
+        <description>Agreement Status Terminated Date</description>
+        <externalId>false</externalId>
+        <label>Agreement Status Terminated Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement_TPO_Signed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement TPO Signed Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Agreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <referenceTo>Agreement__c</referenceTo>
+        <relationshipLabel>Snapshots</relationshipLabel>
+        <relationshipName>Snapshots</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HSI_Approved_Date__c</fullName>
+        <description>HSI Approved Date</description>
+        <externalId>false</externalId>
+        <label>HSI Approved Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>HSI_Memo_Received_Date__c</fullName>
+        <description>HSI Memo Received Date</description>
+        <externalId>false</externalId>
+        <label>HSI Memo Received Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>HSI_Notification_Sent_Date__c</fullName>
+        <description>HSI Notification Sent Date</description>
+        <externalId>false</externalId>
+        <label>HSI Notification Sent Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>IAAO_Approved_Date__c</fullName>
+        <description>IAAO Approved Date</description>
+        <externalId>false</externalId>
+        <label>IAAO Approved Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>IAAO_Memo_Received_Date__c</fullName>
+        <description>IAAO Memo Received Date</description>
+        <externalId>false</externalId>
+        <label>IAAO Memo Received Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>IAAO_Notification_Sent_Date__c</fullName>
+        <description>IAAO Notification Sent Date</description>
+        <externalId>false</externalId>
+        <label>IAAO Notification Sent Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Latest_SP_Case_Memo__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+OR(
+ISBLANK(IAAO_Memo_Received_Date__c), 
+ISBLANK(HSI_Memo_Received_Date__c), 
+ISBLANK(ASI_Memo_Received_Date__c), 
+ISBLANK(Patent_Officer_Memo_Received_Date__c), 
+ISBLANK(USTR_Memo_Received_Date__c) 
+), 
+NULL, 
+Today()- 
+MAX( 
+Today() - BLANKVALUE(DATEVALUE(IAAO_Notification_Sent_Date__c), DATE(2999, 01, 01)), 
+Today() - BLANKVALUE(DATEVALUE(HSI_Notification_Sent_Date__c), DATE(2999, 01, 01)), 
+Today() - BLANKVALUE(DATEVALUE(ASI_Notification_Sent_Date__c), DATE(2999, 01, 01)), 
+Today() - BLANKVALUE(DATEVALUE(Patent_Officer_Notification_Sent_Date__c), DATE(2999, 01, 01)),
+Today() - BLANKVALUE(DATEVALUE(USTR_Notification_Sent_Date__c), DATE(2999, 01, 01)) 
+) 
+)</formula>
+        <label>Latest SP Case Memo</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Latest_Signature_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+    AND(
+        ISBLANK(Agreement_Partner_Signed_Date__c),
+        ISBLANK(Agreement_OCC_Signed_Date__c),
+        ISBLANK(Agreement_OU_Signed_Date__c),
+        ISBLANK(Agreement_TPO_Signed_Date__c)
+    ),
+    NULL,
+   Today()-
+    MAX(
+       Today() - BLANKVALUE(DATEVALUE(Agreement_Partner_Signed_Date__c), DATE(2999, 01, 01)),
+       Today() - BLANKVALUE(DATEVALUE(Agreement_OCC_Signed_Date__c), DATE(2999, 01, 01)),
+       Today() - BLANKVALUE(DATEVALUE(Agreement_OU_Signed_Date__c), DATE(2999, 01, 01)),
+       Today() - BLANKVALUE(DATEVALUE(Agreement_TPO_Signed_Date__c), DATE(2999, 01, 01))
+    )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Latest Signature Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>New_to_OCC_Approval__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agreement_OCC_Approval_Date__c -  Agreement_New_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New to OCC Approval (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_to_OCC_Signed__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agreement_OCC_Signed_Date__c -  Agreement_New_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New to OCC Signed (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_to_OU_Approved__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agreement_OU_Approved_Date__c -  Agreement_New_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New to OU Approved (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_to_OU_Signed__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agreement_OU_Signed_Date__c -  Agreement_New_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New to OU Signed (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_to_PI_Approved__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agreement_PI_Approved_Date__c -  Agreement_New_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New to PI Approved (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_to_Partner_Signed__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agreement_Partner_Signed_Date__c -  Agreement_New_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New to Partner Signed (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_to_Routed_for_OCC_Approval_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agreement_Routed_OCC_Approval_Date__c -  Agreement_New_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New to Routed for OCC Approval (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_to_TPO_Signed__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agreement_TPO_Signed_Date__c -  Agreement_New_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New to TPO Signed (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Patent_Officer_Approved_Date__c</fullName>
+        <description>Patent Officer Approved Date</description>
+        <externalId>false</externalId>
+        <label>Patent Officer Approved Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Patent_Officer_Memo_Received_Date__c</fullName>
+        <description>Patent Officer Memo Received Date</description>
+        <externalId>false</externalId>
+        <label>Patent Officer Memo Received Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Patent_Officer_Notification_Sent_Date__c</fullName>
+        <description>Patent Officer Notification Sent Date</description>
+        <externalId>false</externalId>
+        <label>Patent Officer Notification Sent Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Reference_ID__c</fullName>
+        <description>The ID of the record in the original object.</description>
+        <externalId>false</externalId>
+        <label>Reference ID</label>
+        <length>25</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_Object__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference Object</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SP_Case_Aging_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>today()-Latest_SP_Case_Memo__c</formula>
+        <label>SP Case Aging (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Signature_Aging_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>today()-Latest_Signature_Date__c</formula>
+        <label>Signature Aging (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>USTR_Memo_Received_Date__c</fullName>
+        <description>USTR Memo Received Date</description>
+        <externalId>false</externalId>
+        <label>USTR Memo Received Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>USTR_Notification_Sent_Date__c</fullName>
+        <description>USTR Notification Sent Date</description>
+        <externalId>false</externalId>
+        <label>USTR Notification Sent Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <label>Snapshot</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>SN-{0000000}</displayFormat>
+        <label>Snapshot Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Snapshots</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

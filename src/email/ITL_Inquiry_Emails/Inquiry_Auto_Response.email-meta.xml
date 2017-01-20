@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>Inquiry Auto Response</name>
+    <style>freeForm</style>
+    <subject>Thank You for your Inquiry to NIST</subject>
+    <textOnly>Dear {!NullValue(Case.SuppliedName, &quot;Sir/Madam&quot;)},
+
+Thank you for your inquiry to NIST.  Your inquiry # {!Case.CaseNumber} has been sent to {!Case.Responding_Office__c} staff member.
+
+Someone will get back to you as soon as possible.
+
+Please do not reply to this email. This mailbox is not monitored.
+
+Sincerely,
+
+NIST Inquiry Management</textOnly>
+    <type>html</type>
+</EmailTemplate>

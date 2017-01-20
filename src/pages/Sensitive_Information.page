@@ -1,0 +1,6 @@
+<apex:page standardController="Agreement__c"  showheader="false">
+ 
+ <apex:image url="{!$Resource.Sensitive_Information}" style="max-width:150%;max-height:250px;height:auto;" />
+
+
+ </apex:page>

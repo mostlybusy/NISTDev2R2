@@ -1,0 +1,7 @@
+Hello,
+
+{!Defect__c.Name} has been assigned to you.
+
+Please click here to view the defect: {!Defect__c.Link}
+
+Thank you.

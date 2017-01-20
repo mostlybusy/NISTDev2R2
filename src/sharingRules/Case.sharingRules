@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>ADIIS_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ADIIS Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Associate_Director_for_Innovation_Industry_Services</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>ADIIS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ADLP_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ADLP Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Associate_Director_for_Laboratory_Programs_ADLP</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>ADLP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>SCO</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>AMNPO_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>AMNPO Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Advanced_Manufacturing_Office_AMNPO</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>AMNPO</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Baldrige_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Baldrige Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Baldrige_Performance_Excellence_Program_Baldrige</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>Baldrige</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CNST_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CNST Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Center_for_Nanoscale_Science_and_Technology_CNST</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>CNST</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CSD_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CSD Case Sharing</label>
+        <sharedTo>
+            <role>Computer_Security_Division_CSD</role>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>ITL - CSD</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CTL_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CTL Sharing Rule</label>
+        <sharedTo>
+            <roleAndSubordinates>Communications_Technology_Laboratory_CTL</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>CTL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>CTL -</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Do_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Do Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Directors_Office</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>DO</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>EL_Case_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EL Case Sharing Rule</label>
+        <sharedTo>
+            <roleAndSubordinates>Engineering_Laboratory_EL</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>EL</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ITL_Case_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ITL Case Sharing Rule</label>
+        <sharedTo>
+            <roleAndSubordinates>Information_Technology_Laboratory_ITL</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>ITL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>ITL -</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MEP_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>MEP Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Hollings_Manufacturing_Extension_Partnership_Program_MEP</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>MEP</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MML_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>MML Case Sharing</label>
+        <sharedTo>
+            <role>Material_Measurement_Laboratory_MML</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>MML</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>SRM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>SRD</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NCCOE_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NCCOE Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>National_Cybersecurity_Center_of_Excellence_NCCOE</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>NCCOE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>ITL - NCCOE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NCNR_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NCNR Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>NIST_Center_for_Neutron_Research_NCNR</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>NCNR</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NICE_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NICE Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>National_Initiative_for_Cyber_Security_Education_NICE</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>ITL - NICE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>NICE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NSTIC_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NSTIC Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Trusted_Identity_Initiative_Group_NSTIC</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>ITL - NSTIC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>NSTIC</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PML_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PML Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Physical_Measurement_Laboratory_PML</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>PML</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>Calibrations</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>TPO_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>TPO Case Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Technology_Partnership_Office</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Multi_Select_Text__c</field>
+            <operation>contains</operation>
+            <value>TPO</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

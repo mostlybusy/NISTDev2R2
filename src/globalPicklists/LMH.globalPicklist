@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalPicklist xmlns="http://soap.sforce.com/2006/04/metadata">
+    <globalPicklistValues>
+        <fullName>Low</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Medium</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>High</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <masterLabel>LMH</masterLabel>
+    <sorted>false</sorted>
+</GlobalPicklist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NIST_Inquiry</letterhead>
+    <name>ITL inquiry Management</name>
+    <style>freeForm</style>
+    <subject>Inquiry Assignment</subject>
+    <textOnly>Dear {!NullValue(Case.OwnerFirstName, &quot;Team&quot;)},
+
+An inquiry has been received and has been routed to you for review.
+
+Below is a link and details for the inquiry:
+
+Case URL:
+
+{!Case.Link}
+
+Case Subject:
+
+{!Case.Subject}
+
+Case Details
+
+{!Case.Description}
+
+Please work to address this inquiry in a timely fashion or reassign it to the individual with the appropriate expertise.
+
+
+
+Thank You
+
+{!Case.Responding_Office__c} Inquiry Management Team</textOnly>
+    <type>html</type>
+</EmailTemplate>

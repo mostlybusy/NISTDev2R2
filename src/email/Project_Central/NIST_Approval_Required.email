@@ -1,0 +1,7 @@
+Hello,
+
+The following User Story has been submitted for approval: {!UserStory__c.Name}.
+
+Please log into Salesforce and review and update the User Story by clicking on this link:  {!UserStory__c.Link}
+
+Thank you.

@@ -1,0 +1,117 @@
+<apex:page standardController="Case" showheader="False">
+    <apex:insert name="header">
+    <c:InquiryHeader />
+     </apex:insert>
+     
+  <apex:panelGrid cellpadding="10" cellspacing="0" width="0%" border="0" columns="0" style="text-align: LEFT;" id="WebToCase">
+      
+  
+<html>
+<head>
+    <title>ITL Inquiry Submission</title>
+    <meta charset="utf-8"/>
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
+    <meta http-equiv="cleartype" content="on"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.nist.gov/sites/default/files/advagg_css/css__EjcStq5yieGcWCJwyQCYB4e6OJMSgQ7xGhsD35CsFqQ__D4T5jEEvvy-xXz9BxJ1L0PHZ-CWTHcSW0mf-DwVAUTg__CShXRH4k9raHriJcnu0VWIUFlU-DTvx-RQxALV4h_1s.css" media="all" />
+
+</head>
+
+
+     <form class="cmxform" id="officeForm" action="https://nist--DEV.cs32.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+        <meta content="width=device-width, initial-scale=1"/>
+        
+  <input type="hidden" name="orgid" value="00Dr00000000l4U"/>
+   <input type="hidden" name="retURL" value="http://www.nist.gov"/>
+ <!--------------------------------------------------------------->
+<!---<input type="hidden" name="debug" value="1"/>--->                     
+<!--- <input type="hidden" name="debugEmail" value="jartz@acumensolutions.com"/>--->
+<!---------------------------------------------------------------------->
+                  
+        
+          <br></br>
+           <p>
+           You are accessing a U.S. Government information system, which includes: 1) this computer, 2) this computer network, 3) all
+computers connected to this network, and 4) all devices and storage media attached to this network or to a computer on this
+network. You understand and consent to the following: you may access this information system for authorized use only; you
+have no reasonable expectation of privacy regarding any communication of data transiting or stored on this information
+system; at any time and for any lawful Government purpose, the Government may monitor, intercept, and search and seize any
+communication or data transiting or stored on this information system; and any communications or data transiting or stored on
+this information system may be disclosed or used for any lawful Government purpose.
+          <br></br>
+          </p>
+          <br></br>
+          
+              <div class="views-exposed-widgets clearfix">
+            <h3 class="page__title title"> Submit New Inquiry </h3>
+        </div>
+                          
+        <div class="views-exposed-form">
+            <div class="views-exposed-widgets clearfix">
+                <div id="edit-name-wrapper" class="views-exposed-widget views-widget-filter-field_display_name_value primary-filter">
+                    <div class="container">
+                        <label for="name">* Contact Name:</label>
+                        <input id="name" class="form-text" maxlength="80" name="name" size="20" type="text" required="true"/>
+                        
+                        <label for="company">Company:</label>
+                        <input  id="company" maxlength="80" name="company" size="20" type="text" />
+                        
+                        <label for="email">* Email:</label>
+                                           
+                   
+        
+                       <input  id="email" maxlength="80" name="email" size="20" type="text" required="true" />  
+                        
+                        
+                           
+                        <label for="phone">Phone:</label>
+                        <input  id="phone" maxlength="40" name="phone" size="20" type="text" />
+                        
+                        <label for="subject">Subject:</label>
+                        <input  id="subject" maxlength="80" name="subject" size="20" type="text" />
+                        
+                        <label for="description">Description:</label>
+                        <textarea name="description"></textarea>
+                        
+                        <label for="00Nr0000000dxxa">Location of Capture:</label>
+                        <input  id="00Nr0000000dxxa" maxlength="255" name="00Nr0000000dxxa" size="20" type="text" />
+                        
+                        <label for="00Nr0000000dxxe">* NIST Submitter:</label>
+                        <input  id="00Nr0000000dxxe" maxlength="80" name="00Nr0000000dxxe" size="20" type="text" required="true"/>
+                                            
+                        <label for="00Nr0000000dxxZ">* Direct the Request to:
+                        <select  id="00Nr0000000dxxZ" name="00Nr0000000dxxZ" title="Direct the Request to" required="true">
+                            <option value="">    </option>
+                             <option value="NICE">NICE</option>
+                            <option value="NSTIC">NSTIC</option>
+                            <option value="NCCOE">NCCOE</option>
+                            <option value="CSD">CSD</option>
+                            <option value="ITL">ITL</option>
+                        </select>
+                        </label>
+                        <br></br>
+                        <input type="submit" name="submit" class="form-submit"/>
+                        <p>* Required Information </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+           
+           <p>   
+          <br> Data entered is restricted to low risk data. Low risk data means no PII or BII </br>
+          
+          <br> Some examples of PII/BII are:</br> 
+        <br> * Propritary Business Intelegence</br>
+        <br> * An individual's personal contact information (business contact information is acceptable),Etc..</br>
+        <br>Do no use with any sensitive information or information not appropiate for public distribution</br>
+        <br>Report suspicious activity to iTAC (x5375)</br>
+        <br>Email Salesforce@nist.gov for any questions regarding NIST CRM.</br>
+         </p>
+            
+                    </form>
+                   </html>
+    </apex:panelGrid>
+   </apex:page>

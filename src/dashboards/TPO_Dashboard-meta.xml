@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>TPO Dashboards</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>TPO_group</group>
+        <roleAndSubordinates>Technology_Partnership_Office</roleAndSubordinates>
+    </sharedTo>
+</DashboardFolder>

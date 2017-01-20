@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>CNST</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Center for Nanoscale Science and Technology (CNST)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>NIST</parentRole>
+</Role>
