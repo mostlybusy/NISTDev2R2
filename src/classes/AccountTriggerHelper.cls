@@ -1,6 +1,7 @@
 public with sharing class AccountTriggerHelper {
 
 	//This trigger is used to run on Account Object as part of Sprint1
+	//More changes coming as part of Sprint2
 
 	public static void deleteStaff (list <Account> accounts) {
     
